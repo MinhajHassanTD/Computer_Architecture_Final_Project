@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="49" Path="C:/Users/ma08765/Downloads/64-bit-pipelined-riscv-processor-main/64-bit-pipelined-riscv-processor-main/32bit-riscv-processor.xpr">
+<Project Version="7" Minor="49" Path="C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task_2_&amp;_3/32bit-riscv-processor.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="1c3006c853e54e5e8301659e13c20853"/>
@@ -37,7 +37,7 @@
     <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
     <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
     <Option Name="EnableBDX" Val="FALSE"/>
-    <Option Name="WTXSimLaunchSim" Val="491"/>
+    <Option Name="WTXSimLaunchSim" Val="492"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>

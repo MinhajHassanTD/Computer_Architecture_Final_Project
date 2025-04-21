@@ -10,10 +10,7 @@ module ForwardingUnit
     output reg [1:0] Forward_A,
     output reg [1:0] Forward_B
  );
-//  initial begin
-//  assign Forward_A = 0;
-//  assign Forward_B = 0;
-//  end
+ 
   always @(*)
     begin
     	if ( (rdMem == RS_1) & (regWrite_Mem != 0 & rdMem !=0))
@@ -21,7 +18,6 @@ module ForwardingUnit
           	Forward_A = 2'b10;
           end
       	
-      // Not condition for MEM hazard 
       else if ((rdWb== RS_1) & (regWrite_Wb != 0 & rdWb != 0) & ~((rdMem == RS_1) &(regWrite_Mem != 0 & rdMem !=0)  )  )
         begin
           Forward_A = 2'b01;
@@ -35,8 +31,7 @@ module ForwardingUnit
       if ( (rdMem == RS_2) & (regWrite_Mem != 0 & rdMem !=0) )
         begin
           Forward_B = 2'b10;
-        end
-          // Not condition for MEM Hazard 
+        end 
       else if ( (rdWb == RS_2) & (regWrite_Wb != 0 & rdWb != 0) &  ~((regWrite_Mem != 0 & rdMem !=0 ) & (rdMem == RS_2) ) )
         begin
           Forward_B = 2'b01;

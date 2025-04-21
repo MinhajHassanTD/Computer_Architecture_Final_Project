@@ -9,8 +9,8 @@ module branch_unit(
     wire sel;
     assign sel =
         (funct3 == 3'b000 & zero) | // beq
-        (funct3 == 3'b100 & result[63]) | // blt
-        (funct3 == 3'b101 & (~result[63] | zero)); // bge
+        (funct3 == 3'b100 & result[31]) | // blt
+        (funct3 == 3'b101 & (~result[31] | zero)); // bge
     assign pc_mux_sel = branch & sel;
     
 endmodule
