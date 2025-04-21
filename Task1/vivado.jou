@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Apr 21 09:51:42 2025
+# Process ID: 9500
+# Current directory: C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12688 C:\Users\salty\Minhaj\Habib University\Semester - 4\Computer Architecture\Computer_Architecture_Final_Project\Task1\Single Cycle Processor.xpr
+# Log file: C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1/vivado.log
+# Journal file: C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1/Single Cycle Processor.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_MainProcessor.tcl
+close_sim

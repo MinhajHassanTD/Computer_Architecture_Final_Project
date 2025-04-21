@@ -1,0 +1,122 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Apr 21 09:51:42 2025
+# Process ID: 9500
+# Current directory: C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12688 C:\Users\salty\Minhaj\Habib University\Semester - 4\Computer Architecture\Computer_Architecture_Final_Project\Task1\Single Cycle Processor.xpr
+# Log file: C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1/vivado.log
+# Journal file: C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1/Single Cycle Processor.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1'
+INFO: [Project 1-313] Project file moved from 'C:/Users/ma08765/Downloads/Task1 - Copy/Task1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 1029.367 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1/Single Cycle Processor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_MainProcessor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1/Single Cycle Processor.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_MainProcessor_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1/Single Cycle Processor.srcs/sources_1/new/InstructionMemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1/Single Cycle Processor.srcs/sources_1/new/adder64.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder64
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1/Single Cycle Processor.srcs/sources_1/new/alu64bit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu64bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1/Single Cycle Processor.srcs/sources_1/new/aluControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1/Single Cycle Processor.srcs/sources_1/new/branchUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branch_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1/Single Cycle Processor.srcs/sources_1/new/controlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_Unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1/Single Cycle Processor.srcs/sources_1/new/dataExtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_Extractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1/Single Cycle Processor.srcs/sources_1/new/datamemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1/Single Cycle Processor.srcs/sources_1/new/instructionParser.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_Parser
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1/Single Cycle Processor.srcs/sources_1/new/main_processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main_processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1/Single Cycle Processor.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1/Single Cycle Processor.srcs/sources_1/new/programCounter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_Counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1/Single Cycle Processor.srcs/sources_1/new/registerFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_File
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1/Single Cycle Processor.srcs/sim_1/new/tb_MainProcessor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_MainProcessor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1/Single Cycle Processor.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1029.367 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1/Single Cycle Processor.sim/sim_1/behav/xsim'
+"xelab -wto 08f1fc4cc3bc4a108f7662e8d5bc6a34 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_MainProcessor_behav xil_defaultlib.tb_MainProcessor xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 08f1fc4cc3bc4a108f7662e8d5bc6a34 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_MainProcessor_behav xil_defaultlib.tb_MainProcessor xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.program_Counter
+Compiling module xil_defaultlib.instruction_Memory
+Compiling module xil_defaultlib.instruction_Parser
+Compiling module xil_defaultlib.control_Unit
+Compiling module xil_defaultlib.register_File
+Compiling module xil_defaultlib.data_Extractor
+Compiling module xil_defaultlib.adder64
+Compiling module xil_defaultlib.alu_Control
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.alu64bit
+Compiling module xil_defaultlib.branch_Unit
+Compiling module xil_defaultlib.data_Memory
+Compiling module xil_defaultlib.main_processor
+Compiling module xil_defaultlib.tb_MainProcessor
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_MainProcessor_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1029.367 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/salty/Minhaj/Habib University/Semester - 4/Computer Architecture/Computer_Architecture_Final_Project/Task1/Single Cycle Processor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_MainProcessor_behav -key {Behavioral:sim_1:Functional:tb_MainProcessor} -tclbatch {tb_MainProcessor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source tb_MainProcessor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+xsim: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1029.367 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_MainProcessor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 1029.367 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 21 09:53:32 2025...
